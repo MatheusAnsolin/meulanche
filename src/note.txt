@@ -1,0 +1,3 @@
+23/09
+instalar react swiper
+npm i swiper
