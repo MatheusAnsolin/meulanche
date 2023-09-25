@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import styles from './styles.modules.css';
+import 'styles.modules.css';
 
 
 export const Banner = () => {
