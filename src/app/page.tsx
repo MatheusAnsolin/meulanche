@@ -1,5 +1,6 @@
 import { SearchInput } from '@/components/SearchInput'
 import styles from '../style/page.module.css'
+import { Banner } from '@/components/Banner/page'
 
 export default function Home() {
 
@@ -33,8 +34,7 @@ export default function Home() {
               />
             </div>
           </header>
-          <section className="feed"></section>
+          <Banner/>
         </div>
-    </div>
   )
 }

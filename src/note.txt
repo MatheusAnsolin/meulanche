@@ -1,3 +1,3 @@
-23/09
-instalar react swiper
+01/10
+instalar Autoplay swiper
 npm i swiper
