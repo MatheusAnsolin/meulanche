@@ -3,7 +3,7 @@ import styles from '../style/page.module.css'
 
 export default function Home() {
 
-  const mainColor =( '#000000')
+  const mainColor =( '#FF0000')
   const handleSearch = (searchValue: string) =>{
     console.log(searchValue)
   }
