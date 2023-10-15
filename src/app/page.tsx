@@ -1,5 +1,7 @@
 import { SearchInput } from '@/components/SearchInput'
 import styles from '../style/page.module.css'
+import { Banner } from '@/components/Banner/page'
+import { ProductItem } from '@/components/ProductItem/page'
 
 export default function Home() {
 
@@ -33,8 +35,13 @@ export default function Home() {
               />
             </div>
           </header>
-          <section className="feed"></section>
+          <Banner/>
+
+          <div className={styles.grid}></div>
+          <ProductItem/>
+          <ProductItem/>
+          <ProductItem/>
+
         </div>
-    </div>
   )
 }
