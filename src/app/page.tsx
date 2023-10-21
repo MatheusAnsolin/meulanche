@@ -38,10 +38,13 @@ export default function Home() {
           <Banner/>
 
           <div className={styles.grid}></div>
-          <ProductItem/>
-          <ProductItem/>
-          <ProductItem/>
+            <ProductItem/>
+            <ProductItem/>
+            <ProductItem/>
 
+          </div>
         </div>
-  )
-}
+)}
+
+
+  
